@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM basico</title>
+</head>
+<body>
+    <h1 class="verde" >Manipulacion del DOM Básica</h1>
+    <form id="formulario">
+        <input id="calculo1" placeholder="Escribe algo aqui" value="3">
+        <input onchange="console.log('Cambio el input')" id="calculo2"placeholder = "Escribe algo aqui"/> <!--onchange permite escuchar cunado los usuarios terminan de escribir en el input -->
+        <button id="btnCalcular">Calcular</button> <!-- cuando se clickee se ejecutara la funcion-->
+        <p id="result"></p>
+    </form>
+    <script src="./eventosjs.js"></script>
+</body>
+</html>
